@@ -6,6 +6,6 @@ app = FastAPI()
 @app.get("/")
 def read_root():
     return {"Hello": "World"}
-@app.get("/about")
-def about():
-    return {"msg": "this is about page"}
+@app.get("new-feature")
+def new_feature():
+    return {"msg": "this is a new feature"}
