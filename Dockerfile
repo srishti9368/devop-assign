@@ -14,7 +14,7 @@
  EXPOSE 5003
  
  # Define environment variable
- ENV main assign-main=main.py
+ ENV assign-main
  
  # Run app.py when the container launches
  CMD ["python", "main.py"]
