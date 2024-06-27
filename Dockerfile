@@ -2,7 +2,7 @@
  FROM python:3.9-slim
 
  # Set the working directory in the container
- WORKDIR /main
+ WORKDIR /assign
  
  # Copy the current directory contents into the container at /app
  COPY . /main
